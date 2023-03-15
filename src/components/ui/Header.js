@@ -193,7 +193,7 @@ const Header = (props) => {
     { name: "Deliveries", link: "/deliveries", activeIndex: 5 },
     { name: "Payments", link: "/payments", activeIndex: 6 },
     { name: "Remittances", link: "/remittances", activeIndex: 7 },
-    { name: "Reports", link: "/reports", activeIndex: 8 },
+    // { name: "Reports", link: "/reports", activeIndex: 8 },
     { name: "Utilities", link: "/utilities", activeIndex: 9 },
 
     // { name: "Sign Out", link: "/logout" },
@@ -348,28 +348,6 @@ const Header = (props) => {
       </Dialog>
     );
   };
-
-  // const renderLogout = () => {
-  //   return (
-  //     <Dialog
-  //       style={{ zIndex: 1302 }}
-  //       fullScreen
-  //       open={openLogout}
-  //       onClose={() => [setOpenLogout(false), history.push("/")]}
-  //       fullWidth
-  //       maxWidth="md"
-  //     >
-  //       <DialogContent>
-  //         <UserLogout
-  //           token={props.token}
-  //           handleLogoutProcess={props.handleLogoutProcess}
-  //           setToken={props.setToken}
-  //           // handleDialogOpenStatus={handleDialogOpenStatus}
-  //         />
-  //       </DialogContent>
-  //     </Dialog>
-  //   );
-  // };
 
   const drawer = (
     <React.Fragment>
